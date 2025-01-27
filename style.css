@@ -1,0 +1,86 @@
+
+#site-title {
+	padding-top: 80px;
+	width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+body {
+	margin: 0;
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  height: 700px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+#container {
+	width: 360px;
+	height: 500px;
+	overflow-y: auto;
+    margin: 0px auto;
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+	box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#main-container {
+	width: 320px;
+	height: 350px;
+	overflow-y: auto;
+    margin: 0px auto;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 10px 20px 10px 20px;
+    color: #000;
+}
+
+#controller {
+	width: 320px;
+	height: 100px;
+  margin: 0px auto;
+  margin-top: 7px;
+}
+
+.form-control {
+	border: none;
+}
+
+textarea {
+	margin-top: 7px;
+	resize: none;
+}
+
+#send {
+	float: right;
+}
+
+.gif-container {
+	max-width: 150px;
+	height: 100px; 
+    border-radius: 4px;
+	display: flex;
+	float: left;
+}
+
+.bubble {
+    margin-top: 5px;
+    width: 75%;
+    border-radius: 15px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.user-input {
+    float: right;
+    background-color: #1289fe;
+    color: #fff;
+}
+
+.bot-output {
+    float: left;
+    background-color: #e5e5ea;
+    color: #000;
+}
