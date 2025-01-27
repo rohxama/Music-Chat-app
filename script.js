@@ -72,7 +72,7 @@ function botAlgorithm(processMessage) {
         botReply(randomGreeting);
     }
 
-    if  ( (processMessage.indexOf("I love you") >= 0) || (processMessage.indexOf("love you") >= 0) || (processMessage.indexOf("bacha") >= 0) || (processMessage.indexOf("Jan") >= 0)) {
+    if  ( (processMessage.indexOf("I love you") >= 0) || (processMessage.indexOf("love you") >= 0) || (processMessage.indexOf("bacha") >= 0) || (processMessage.indexOf("Jan") >= 0 )) {
         var goodbye = [
             "I love you too❤️",
             "I love you always❤️",
